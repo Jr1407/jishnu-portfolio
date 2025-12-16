@@ -36,10 +36,35 @@ export default function Hero() {
             system-level problem solving.
           </p>
 
-          <div className="mt-12 flex gap-6">
+          <div className="mt-12 flex flex-wrap gap-6 items-center">
             <HeroLink label="GitHub" href="https://github.com/Jr1407" />
-            <HeroLink label="LinkedIn" href="https://www.linkedin.com/in/jishnu-ray-707869265" />
-            <HeroLink label="ResearchGate" href="https://www.researchgate.net/profile/Jishnu-Ray-3" />
+            <HeroLink
+              label="LinkedIn"
+              href="https://www.linkedin.com/in/jishnu-ray-707869265"
+            />
+            <HeroLink
+              label="ResearchGate"
+              href="https://www.researchgate.net/profile/Jishnu-Ray-3"
+            />
+
+            {/* Resume Button */}
+            <motion.a
+              href="/Jishnu_Ray_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ y: -2 }}
+              transition={{ duration: 0.2 }}
+              className="ml-2 px-5 py-2
+                         rounded-full
+                         border border-white/20
+                         text-xs uppercase tracking-wider
+                         text-white
+                         backdrop-blur-md
+                         hover:bg-white/10
+                         transition"
+            >
+              Resume
+            </motion.a>
           </div>
         </motion.div>
 
@@ -88,6 +113,7 @@ function HeroLink({ label, href }: { label: string; href: string }) {
     <a
       href={href}
       target="_blank"
+      rel="noopener noreferrer"
       className="relative text-sm uppercase tracking-wider text-gray-300 hover:text-white transition"
     >
       {label}
