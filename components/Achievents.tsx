@@ -52,12 +52,12 @@ export default function Achievements() {
 
           <div>
             <h3 className="text-lg text-white font-medium">
-              IEEE CASS Student Chapter — Co-Technical Head
+              IEEE CASS Student Chapter — Content Head
             </h3>
             <p className="mt-2 text-gray-400">
-              Served as Co-Technical Head of the IEEE Circuits and Systems Society
+              Served as Content Head of the IEEE Circuits and Systems Society
               student chapter, contributing to technical initiatives, coordination,
-              and student engagement activities.
+              student engagement activities and content writing.
             </p>
           </div>
         </motion.div>
