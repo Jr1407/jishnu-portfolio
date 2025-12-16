@@ -4,6 +4,12 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Text-to-SQL Query Generation using Quantized Gemma-2B",
+    description:
+      "Developed an AI system that converts natural language queries into SQL by fine-tuning the Gemma-2B large language model with 4-bit quantization. The approach significantly reduces memory usage while preserving query accuracy, enabling efficient deployment on low-resource systems for dashboards, analytics, and database-driven applications.",
+    meta: "IEEE Xplore · Software · AI / NLP",
+  },
+  {
     title: "Secure Ultra-Wideband FSS for 5G/6G Communication",
     description:
       "Designed a polarization-insensitive frequency selective surface with an ultra-wide rejection band, enabling effective EMI shielding and interference suppression for next-generation wireless systems.",
@@ -16,18 +22,16 @@ const projects = [
     meta: "IEEE Xplore · Hardware · Electromagnetics",
   },
   {
-    title:
-      "Effect of Magnetic Field on Blood Flow Through a Stenosed Artery",
+    title: "Effect of Magnetic Field on Blood Flow Through a Stenosed Artery",
     description:
       "Formulated and solved a coupled MHD model using a non-Newtonian Casson fluid to analyze physiologically significant blood-flow behavior under magnetic field influence.",
     meta: "IEEE Xplore · Mathematical Modeling · Biomedical Systems",
   },
   {
-    title:
-      "Resource-Efficient Performance Analysis of BERT Variants",
+    title: "Resource-Efficient Performance Analysis of BERT Variants",
     description:
       "Evaluated multiple transformer models to study accuracy–latency trade-offs, guiding the selection of efficient architectures for real-world fake-news detection systems.",
-    meta: "Software Project · Performance Analysis (Non-IEEE)",
+    meta: "Software Project · Performance Analysis.",
   },
 ];
 
