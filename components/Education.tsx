@@ -68,7 +68,7 @@ export default function Education() {
           </h3>
 
           <p className="mt-3 text-gray-400">
-            Purulia Zilla School
+            Purulia Zilla School,Purulia
           </p>
 
           <p className="mt-4 text-sm uppercase tracking-wider text-cyan-400/80">
@@ -89,7 +89,7 @@ export default function Education() {
           </h3>
 
           <p className="mt-3 text-gray-400">
-            Purulia Zilla School
+            Purulia Zilla School, Purulia
           </p>
 
           <p className="mt-4 text-sm uppercase tracking-wider text-cyan-400/80">
